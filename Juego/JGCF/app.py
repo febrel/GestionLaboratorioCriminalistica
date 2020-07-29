@@ -7,6 +7,7 @@ from flask_mysqldb import MySQL
 app = Flask(__name__)
 print()
 print()
+PRINT()
 
 # Conectarse a MySQL
 app.config['MYSQL_HOST'] = 'localhost'
